@@ -27,7 +27,7 @@ raceTimeFilePath =  Path(LiveBasePath, "temps.txt")
 
 LocalOnly = True
 
-enableSevenSegDisplay = True
+enableSevenSegDisplay = False
 if enableSevenSegDisplay:
     disp = Display(numberOfLines=3, Port="COM5")
 
